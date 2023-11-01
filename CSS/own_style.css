@@ -9,7 +9,7 @@
 }
 
 #home-bg{
-    background-image: url("/Images/jpg/home_wallpaper.jpg");
+    background-image: url("../Images/jpg/home_wallpaper.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
