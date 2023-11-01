@@ -1,140 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wie is David?</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" href="../Images/favicon/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wie is David?</title>
 
-    <link rel="stylesheet" href="/CSS/bootstrap.css">
-    <link rel="stylesheet" href="/CSS/own_style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="shortcut icon" href="../Images/favicon/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@400;700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="/CSS/bootstrap.css">
+	<link rel="stylesheet" href="/CSS/own_style.css">
+
+	<script src="https://kit.fontawesome.com/a9d504941b.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html">
-            <img src="/Images/svg/DA_logo_big.svg" alt="Logo" width="30" height="30" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/HTML/cv.html">Curriculum Vitae</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/HTML/ervaring.html">Ervaring</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/HTML/interesses.html">Interesses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/HTML/contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
-    <div id="pageContent">
-        <h1>Contact</h1>
-        <hr>
-        <div class="contactForm">
-            <form method="post" action="https://tm-statweb.be/sendmail.php">
-                
-                <input type="hidden" name="studentemail" value="r0702593@student.thomas.be">
-                <div>
-                    <label for="voornaam">Voornaam <br>
-                        <input type="text" name="voornaam" id="voornaam" placeholder="Voornaam" required>
-                    </label>
-                </div>
-                <div>
-                    <label for="Achternaam">Achternaam <br>
-                        <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" required>
-                    </label>
-                </div>
-                <div>
-                    <label for="Bedrijf">Bedrijf <span class="optioneel">(Optioneel)</span> <br>
-                        <input type="text" name="Bedrijf" id="Bedrijf">
-                    </label>
-                </div>
-                <div>
-                    <label for="Functie">Functie <span class="optioneel">(Optioneel)</span> <br>
-                        <input type="text" name="Functie" id="Functie">
-                    </label>
-                </div>
-                <div>
-                    <label for="Email">Email <br>
-                        <input type="text" name="Email" id="Email" placeholder="voorbeeld@gmail.com" required>
-                    </label>
-                </div>
-                <div>
-                    <label for="GSM">GSM <br>
-                        <input type="tel" name="GSM" id="GSM" placeholder="gsm nr." required>
-                    </label>
-                </div>
-                <div>
-                    <label for="Boodschap">Boodschap <br>
-                        <input type="text" name="Boodschap" id="Boodschap" placeholder="Typ hier uw boodschap" required>
-                    </label>
-                </div>
-                <input type="submit" value="Verzenden">
-            </form>
-        </div>
-    </div>
-    <div class="container">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-          <div class="col mb-3">
-            <a href="" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-              <img src="/Images/svg/DA_logo_big.svg" alt="Logo" width="40" height="32" />
-            </a>
-            <p class="text-body-secondary">© Aeschlimann David</p>
-          </div>
-    
-          <div class="col mb-3"></div>
-    
-          <div class="col mb-3"></div>
-    
-          <div class="col mb-3">
-            <h5>Pages</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="/index.html" class="nav-link p-0 text-body-secondary">Home</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="/HTML/cv.html" class="nav-link p-0 text-body-secondary">Curriculum Vitae</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="/HTML/ervaring.html" class="nav-link p-0 text-body-secondary">Ervaring</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="/HTML/interesses.html" class="nav-link p-0 text-body-secondary">Interesses</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="/HTML/contact.html" class="nav-link p-0 text-body-secondary">Contact</a>
-              </li>
-            </ul>
-          </div>
-    
-          <div class="col mb-3">
-            <h5>Socials</h5>
-            <ul class="nav flex-column">
-              <li class="mb-2">
-                <a class="text-body-secondary" href="https://www.linkedin.com/in/david-aeschlimann"><i
-                    class="fa-brands fa-linkedin fa-xl"></i></a>
-              </li>
-            </ul>
-          </div>
-        </footer>
-      </div>
+<body>
+	<nav class="navbar navbar-expand-md">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/index.html">
+				<img src="/Images/svg/DA_logo_big.svg" alt="Logo" width="30" height="30" />
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/HTML/cv.html">Curriculum Vitae</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/HTML/ervaring.html">Ervaring</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/HTML/interesses.html">Interesses</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/HTML/contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h2>Contact Form</h2>
+		<form method="post" action="https://tm-statweb.be/sendmail.php">
+			<input type="hidden" name="studentemail" value="r0702593@student.thomas.be">
+			<div class="row mb-2">
+				<div class="col">
+					<label class="form-label" for="voornaam">Voornaam</label>
+					<input class="form-control" type="text" name="voornaam" id="voornaam" placeholder="Voornaam"
+						required>
+				</div>
+				<div class="col">
+					<label class="form-label" for="Achternaam">Achternaam </label>
+					<input class="form-control" type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam"
+						required>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="col">
+					<label class="form-label" for="Bedrijf">Bedrijf <span class="optioneel">(Optioneel)</span></label>
+					<input class="form-control" type="text" name="Bedrijf" id="Bedrijf">
+				</div>
+				<div class="col">
+					<label class="form-label" for="Functie">Functie <span class="optioneel">(Optioneel)</span></label>
+					<input class="form-control" type="text" name="Functie" id="Functie">
+				</div>
+				<div>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="col">
+					<label class="form-label" for="Email">Email</label>
+					<input class="form-control" type="text" name="Email" id="Email" placeholder="voorbeeld@gmail.com"
+						required>
+				</div>
+				<div class="col">
+					<label class="form-label" for="GSM">GSM</label>
+					<input class="form-control" type="tel" name="GSM" id="GSM" placeholder="gsm nr." required>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="form-label">Vaardigheden</div>
+				<div class="col">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" name="PLC" id="PLC">
+						<label class="form-check-label" for="PLC">PLC Siemens (Tia portal, Step7, Simatic Manager)</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" name="LV" id="LV">
+						<label class="form-check-label" for="LV">Labview</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" name="drieD" id="drieD">
+						<label class="form-check-label" for="drieD">Fusion 360 / SolidWorks / inventor</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" name="Microcontrollers" id="Microcontrollers">
+						<label class="form-check-label" for="Microcontrollers">Microcontrollers</label>
+					</div>
+				</div>
+				<div class="col">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" name="VB" id="VB">
+						<label class="form-check-label" for="VB">Visual Basic (.Net)</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" name="Js" id="Js">
+						<label class="form-check-label" for="Js">Javascript / jQuery / PHP</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" name="SQL" id="SQL">
+						<label class="form-check-label" for="SQL">SQL / Microsoft SQL Server / MySQL</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" name="html" id="html">
+						<label class="form-check-label" for="html">HTML / CSS / Boostrap</label>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="col">
+					<div class="form-label">Vraag</div>
+					<div class="form-floating">
+						<textarea id="vraagContact" class="form-control" name="Vraag" id="Vraag" cols="30" rows="10"
+							placeholder="Typ hier uw vraag..."></textarea>
+						<label class="form-label" for="Vraag">Uw vraag</label>
+					</div>
+				</div>
+			</div>
+			<button class="btn btn-dark mt-2" type="submit">Verzenden</button>
+		</form>
+	</div>
+
+	<div class="container">
+		<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+			<div class="col mb-3">
+				<a href="" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+					<img src="/Images/svg/DA_logo_big.svg" alt="Logo" width="40" height="32" />
+				</a>
+				<p class="text-body-secondary">© Aeschlimann David</p>
+			</div>
+
+			<div class="col mb-3"></div>
+
+			<div class="col mb-3"></div>
+
+			<div class="col mb-3">
+				<h5>Pages</h5>
+				<ul class="nav flex-column">
+					<li class="nav-item mb-2">
+						<a href="/index.html" class="nav-link p-0 text-body-secondary">Home</a>
+					</li>
+					<li class="nav-item mb-2">
+						<a href="/HTML/cv.html" class="nav-link p-0 text-body-secondary">Curriculum Vitae</a>
+					</li>
+					<li class="nav-item mb-2">
+						<a href="/HTML/ervaring.html" class="nav-link p-0 text-body-secondary">Ervaring</a>
+					</li>
+					<li class="nav-item mb-2">
+						<a href="/HTML/interesses.html" class="nav-link p-0 text-body-secondary">Interesses</a>
+					</li>
+					<li class="nav-item mb-2">
+						<a href="/HTML/contact.html" class="nav-link p-0 text-body-secondary">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col mb-3">
+				<h5>Socials</h5>
+				<ul class="nav flex-column">
+					<li class="mb-2">
+						<a class="text-body-secondary" href="https://www.linkedin.com/in/david-aeschlimann"><i
+								class="fa-brands fa-linkedin fa-xl"></i></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
 </html>
