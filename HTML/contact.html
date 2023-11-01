@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wie is David?</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="../Images/favicon/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <table>
+            <tr>
+                <td class="navbarCell">
+                    <ul class="navbarItems">
+                        <li class="navbarItem">
+                            <div>
+                                <a href="./index.html">Home</a>
+                            </div>
+                        </li>
+                        <li class="navbarItem">
+                            <div>
+                                <a href="./cv.html">Curriculum Vitae</a>
+                            </div>
+                        </li>
+                        <li class="navbarItem">
+                            <div>
+                                <a href="./ervaring.html">Ervaring</a>
+                            </div>
+                        </li>
+                        <li class="navbarItem">
+                            <div>
+                                <a href="./interesses.html">Interesses</a>
+                            </div>
+                        </li>
+                        <li class="navbarItem">
+                            <div>
+                                <a href="./contact.html">Contact</a>
+                            </div>
+                        </li>
+                    </ul>
+                </td>
+                <td class="logoCell">
+                    <div id="navbarLogo"><img src="../Images/svg/DA_logo_big.svg" alt="Logo"></div>
+                </td>
+            </tr>
+        </table>
+    </nav>
+    <div id="pageContent">
+        <h1>Contact</h1>
+        <hr>
+        <div class="contactForm">
+            <form method="post" action="https://tm-statweb.be/sendmail.php">
+                
+                <input type="hidden" name="studentemail" value="r0702593@student.thomas.be">
+                <div>
+                    <label for="voornaam">Voornaam <br>
+                        <input type="text" name="voornaam" id="voornaam" placeholder="Voornaam" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="Achternaam">Achternaam <br>
+                        <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="Bedrijf">Bedrijf <span class="optioneel">(Optioneel)</span> <br>
+                        <input type="text" name="Bedrijf" id="Bedrijf">
+                    </label>
+                </div>
+                <div>
+                    <label for="Functie">Functie <span class="optioneel">(Optioneel)</span> <br>
+                        <input type="text" name="Functie" id="Functie">
+                    </label>
+                </div>
+                <div>
+                    <label for="Email">Email <br>
+                        <input type="text" name="Email" id="Email" placeholder="voorbeeld@gmail.com" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="GSM">GSM <br>
+                        <input type="tel" name="GSM" id="GSM" placeholder="gsm nr." required>
+                    </label>
+                </div>
+                <div>
+                    <label for="Boodschap">Boodschap <br>
+                        <input type="text" name="Boodschap" id="Boodschap" placeholder="Typ hier uw boodschap" required>
+                    </label>
+                </div>
+                <input type="submit" value="Verzenden">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
