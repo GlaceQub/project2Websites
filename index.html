@@ -10,47 +10,63 @@
     <link rel="shortcut icon" href="../Images/favicon/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="/CSS/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/CSS/own_style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <table>
-            <tr>
-                <td class="navbarCell">
-                    <ul class="navbarItems">
-                        <li class="navbarItem">
-                            <div>
-                                <a href="/index.html">Home</a>
-                            </div>
-                        </li>
-                        <li class="navbarItem">
-                            <div>
-                                <a href="/HTML/cv.html">Curriculum Vitae</a>
-                            </div>
-                        </li>
-                        <li class="navbarItem">
-                            <div>
-                                <a href="/HTML/ervaring.html">Ervaring</a>
-                            </div>
-                        </li>
-                        <li class="navbarItem">
-                            <div>
-                                <a href="/HTML/interesses.html">Interesses</a>
-                            </div>
-                        </li>
-                        <li class="navbarItem">
-                            <div>
-                                <a href="/HTML/contact.html">Contact</a>
-                            </div>
-                        </li>
-                    </ul>
-                </td>
-                <td class="logoCell">
-                    <div id="navbarLogo"><img src="../Images/svg/DA_logo_big.svg" alt="Logo"></div>
-                </td>
-            </tr>
-        </table>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/Images/favicon/favicon.ico" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/HTML/cv.html">Curriculum Vitae</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="/HTML/ervaring.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/interesses.html">Interesses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/contact.html">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"></button>
+              </form>
+            </div>
+          </div>
     </nav>
+
+
+                                <a href="/index.html">Home</a>
+
+                                <a href="/HTML/cv.html">Curriculum Vitae</a>
+
+                                <a href="/HTML/ervaring.html">Ervaring</a>
+
+                                <a href="/HTML/interesses.html">Interesses</a>
+
+                                <a href="/HTML/contact.html">Contact</a>
+
     <div id="pageContent">
         <h1>Home</h1>
         <hr>
