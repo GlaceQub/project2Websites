@@ -7,297 +7,47 @@
     --navbarItemHover: var(--secColor);
 }
 
-body{
-    font-family: 'Oxygen', sans-serif;
-    background-color: var(--thirdColor);
-    margin: 0;
-    font-size: 1em;
+#home-hero{
+    background-color: white;
 }
 
-p{
-    margin: 0;
-}
-
-strong{
-    color: var(--primColor);
-    font-weight: bolder;
-}
-
-/* navbar */
-.navbar{
-    background-color: var(--navbar);
-    width: auto;
-}
-.navbarItems{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    height: 4.5em;
-}
-.navbarItem{
-    height: auto;
-    vertical-align: middle;
-    padding: 0.5em 1em 0.5em 1em;
-    float: right;
-}
-.navbarItem a{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2.25em;
-    color: var(--navbarItemText);
-    text-decoration: none;
-}
-.navbarItem>div{
-    padding: 0.25em 0.75em 0.25em 0.75em;
-    border-radius: 15px;
-}
-.navbarItem>div:hover{
-    background-color: var(--navbarItemHover);
-}
-
-.navbarCell{
-    width: 100%;
-}
-
-#navbarLogo{
-    display: flex;
-    float: right;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-}
-
-/* Titels */
-h1{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 4em;
-    margin: 30px 0 0 0;
-    color: var(--primColor);
-    text-align: center;
-}
-
-h2{
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 300;
-    font-size: 2em;
-    margin: 0;
-    color: var(--primColor);
-}
-
-h3{
-    font-size: 1.25em;
-    margin: 0 0 10px 0;
-    color: var(--primColor);
-}
-
-h4{
-    font-size: 1.0em;
-    margin: 0 0 5px 0;
-    color: var(--secColor);
-}
-
-hr{
-    border: 3px solid var(--secColor);
-    border-radius: 5px;
-    text-align: center;
-    width: 450px;
-    margin: auto;
-    margin-bottom: 30px;
-}
-
-/* Tables */
-.cvTable{
-    padding: 0 50px 0 50px;
-}
-
-.cvCol{
-    /* border-collapse: collapse; */
-    padding: 0px 50px 0px 50px;
-    vertical-align: top;
-    width: 33%;
-}
- .cvCol>table{
-    width: 100%;
+#home-bg{
+    background-image: url("/Images/jpg/home_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100%;
- }
-
-.cvCol th, .cvCol td{
-    padding: 5px;
+    width: 100%;
 }
 
-.cvCol th{
-    border-radius: 10px;
-    background-color: var(--secColor);
-    text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 250;
-    font-size: 2em;
-    color: var(--thirdColor);
-    height: 40px;
-}
-
-.cvCol td{
-    text-align: justify;
-    vertical-align: top;
-    height: 220px;
-}
-
-.cvCol ul{
-    margin: 0;
-    padding: 0 0 0 20px;
-}
-
-.cvCol li{
-    padding-bottom: 5px;
-}
-
-a{
-    color: black;
-}
-
-caption{
-    caption-side: bottom;
-}
-
-/* Images */
-.profielFoto{
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.profielFoto>img{
-    height: 500px;
-    width: 500px;
-    border-radius: 50px;
-}
-
-#fotoPsController{
-    height: 550px;
-    width: auto;
-    
-}
-
-/* Boxes */
-#homeInfo{
-    padding: 0 50px 0 50px;
-}
-
-.textBlokBig{
-    text-align: center;
-    width: 800px;
-    margin: auto;
-}
-
-/* Links */
-.hyperLink, .hyperLinkButton{
-    text-decoration: none;
-}
-
-#homePaginaHyperLinks{
-    padding: 50px;
-    margin: auto;
-}
-
-.hyperLinkButton{
-    display: flex;
-    justify-content: center;
-    height: 80px;
-    width: 300px;
-    background-color: var(--thirdColor);
-    border: 5px solid var(--primColor);
-    border-radius: 10px;
-    color: var(--primColor);
-    margin: 0 20px 0 20px;
-}
-
-.hyperLinkButton:hover{
+.prim-color{
     background-color: var(--primColor);
     color: var(--thirdColor);
 }
 
-.hyperLinkButton>div{
-    /* color: var(--thirdColor); */
-    margin: auto;
-}
-
-/* overig */
-#homePaginaHyperLinks{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2.25em;
-    font-weight: 300;
+.sec-color{
+    background-color: var(--secColor);
     color: var(--thirdColor);
-    vertical-align: middle;
 }
 
-.workExp, .interest{
-    border: 5px solid var(--primColor);
-    border-radius: 20px;
-    margin: 30px 100px 30px 100px;
-    padding: 20px;
-    /* background-color: var(--secColor);
-    color: var(--thirdColor); */
+.third-color{
+    background-color: var(--thirdColor);
+    color: var(--primColor);
 }
 
-.workExp p{
-    text-align: justify;
+.home-card{
+    width: 10rem;
 }
 
-.interest{
-    display: flex;
-}
-
-.textJust{
-    text-align: justify;
-}
-
-.textRight{
-    text-align: right;
-}
-
-.boxText{
-    width: 70%;
-    padding: 0 10px 0 10px;
-}
-
-.boxImg{
+.home-card-img{
+    height: auto;
     margin: auto;
-    width: 30%;
-    text-align: center;
 }
 
-.boxImg img{
-    border-radius: 15px;
+.cv-card{
+    height: 100%;
+}
+
+.cv-profiel-foto{
     width: 100%;
-}
-
-/* Forms */
-.contactForm{
-    border: 5px solid var(--primColor);
-    border-radius: 20px;
-    padding: 20px;
-    /* margin: 30px 100px 30px 100px; */
     margin: auto;
-    width: 500px
-}
-
-.contactForm div, .contactForm label{
-    padding: 0 0 10px 0;
-}
-
-.contactForm input{
-    width: 495px;
-}
-
-.contactForm input[type="submit"]{
-    margin:auto;
-    width: 100px;
-    height: 30px;
-}
-
-ul.noStyle{
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }

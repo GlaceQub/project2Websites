@@ -1,113 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wie is David?</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" href="../Images/favicon/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/CSS/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="/CSS/own_style.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wie is David?</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="shortcut icon" href="../Images/favicon/favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="/CSS/bootstrap.css" />
+  <link rel="stylesheet" href="/CSS/own_style.css" />
+
+  <script src="https://kit.fontawesome.com/a9d504941b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">
-                <img src="/Images/favicon/favicon.ico" alt="Logo">
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/Images/svg/DA_logo_big.svg" alt="Logo" width="30" height="30" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/cv.html">Curriculum Vitae</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/ervaring.html">Ervaring</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/interesses.html">Interesses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home-bg" class="py-5">
+    <div class="container my-5">
+      <div id="home-hero" class="row p-4 pb-0 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-10 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">Wie is David Aeschlimann?</h1>
+          <p class="lead">
+            Ik ben een gedreven persoon met een zeer breed interessegebied.
+            Mijn bachelor opleiding in de elektromechanische wereld en mijn
+            werk ervaring als programmeur zijn hier het perfecte voorbeeld
+            van. 3D ontwerpen, programmeren van Arduino's en PLCs alsook
+            ondersteunen bij het ontwikkelen van webapplicaties zijn
+            onderwerpen die ik met beide handen aangrijp en niet loslaat tot
+            de puntjes op de i staan.
+          </p>
+          <div class="d-grid gap-2 justify-content-md-start mb-4 mb-lg-3">
+            <p class="lead">
+              Wil je meer weten of iets concreets bespreken? Druk dan op de
+              knop hieronder!
+            </p>
+            <a class="nav-link me-auto">
+              <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold" href="/HTML/contact.html">
+                Contact
+              </button>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/HTML/cv.html">Curriculum Vitae</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="/HTML/ervaring.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/HTML/interesses.html">Interesses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/HTML/contact.html">Contact</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit"></button>
-              </form>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col p-3">
+          <div class="card" class="home-card">
+            <a href="/HTML/cv.html">
+              <img class="card-img-top home-card-img" src="/Images/jpg/markus-winkler-XKKuY4ottJ0-unsplash.jpg"
+                alt="typewriter" />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Curriculum Vitae</h5>
+              <p class="card-text">Wil je graag mijn CV bekijken?</p>
+              <a class="nav-link me-auto" href="/HTML/cv.html">
+                <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">
+                  CV
+                </button>
+              </a>
             </div>
           </div>
-    </nav>
-
-
-                                <a href="/index.html">Home</a>
-
-                                <a href="/HTML/cv.html">Curriculum Vitae</a>
-
-                                <a href="/HTML/ervaring.html">Ervaring</a>
-
-                                <a href="/HTML/interesses.html">Interesses</a>
-
-                                <a href="/HTML/contact.html">Contact</a>
-
-    <div id="pageContent">
-        <h1>Home</h1>
-        <hr>
-        <div id="homeInfo">
-            <div class="profielFoto">
-                <img src="../Images/jpg/foto_David.jpg" alt="foto_David">
-            </div>
-            <div class="textBlokBig">
-                <h2>Wie ben ik?</h2>
-                <p>Ik ben een gedreven persoon met een zeer breed interessegebied.
-                    Mijn bachelor opleiding in de elektromechanische wereld en mijn werk ervaring
-                    als programmeur zijn hier het perfecte voorbeeld van. 3D ontwerpen, programmeren
-                    van Arduino's en PLCs alsook ondersteunen bij het ontwikkelen van webapplicaties
-                    zijn onderwerpen die ik met beide handen aangrijp en niet loslaat tot de puntjes
-                op de i staan.</p>
-            </div>
         </div>
-        <table id="homePaginaHyperLinks">
-            <tr>
-                <td>
-                    <a class="hyperLinkButton" href="./cv.html">
-                        <div class="hyperLink">Curriculum Vitae</div>
-                    </a>
-                </td>
-                <td>
-                    <a class="hyperLinkButton" href="./ervaring.html">
-                        <div class="hyperLink">Ervaring</div>
-                    </a>
-                </td>
-                <td>
-                    <a class="hyperLinkButton" href="./interesses.html">
-                        <div class="hyperLink">Interesses</div>
-                    </a>
-                </td>
-                <td>
-                    <a class="hyperLinkButton" href="./contact.html">
-                        <div class="hyperLink">Contact</div>
-                    </a>
-                </td>
-            </tr>
-        </table>
+        <div class="col p-3">
+          <div class="card" class="home-card">
+            <a href="/HTML/ervaring.html">
+              <img class="card-img-top home-card-img" src="/Images/jpg/hunters-race-MYbhN8KaaEc-unsplash.jpg"
+                alt="man in suit" />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Ervaring</h5>
+              <p class="card-text">
+                Wil je graag meer info over mijn ervaring?
+              </p>
+              <a class="nav-link me-auto" href="/HTML/ervaring.html">
+                <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">
+                  Ervaring
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col p-3">
+          <div class="card" class="home-card">
+            <a href="/HTML/interesses.html">
+              <img class="card-img-top home-card-img" src="/Images/jpg/arnold-francisca-f77Bh3inUpE-unsplash.jpg"
+                alt="programming code" />
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Interesses</h5>
+              <p class="card-text">Wil je weten wat mijn interesses zijn?</p>
+              <a class="nav-link me-auto" href="/HTML/interesses.html">
+                <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">
+                  Interesses
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <img src="/Images/svg/DA_logo_big.svg" alt="Logo" width="40" height="32" />
+        </a>
+        <p class="text-body-secondary">© Aeschlimann David</p>
+      </div>
+
+      <div class="col mb-3"></div>
+
+      <div class="col mb-3"></div>
+
+      <div class="col mb-3">
+        <h5>Pages</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="/index.html" class="nav-link p-0 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/HTML/cv.html" class="nav-link p-0 text-body-secondary">Curriculum Vitae</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/HTML/ervaring.html" class="nav-link p-0 text-body-secondary">Ervaring</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/HTML/interesses.html" class="nav-link p-0 text-body-secondary">Interesses</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/HTML/contact.html" class="nav-link p-0 text-body-secondary">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Socials</h5>
+        <ul class="nav flex-column">
+          <li class="mb-2">
+            <a class="text-body-secondary" href="https://www.linkedin.com/in/david-aeschlimann"><i
+                class="fa-brands fa-linkedin fa-xl"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>
