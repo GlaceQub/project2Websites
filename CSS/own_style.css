@@ -2,9 +2,6 @@
     --primColor: #1B3037;
     --secColor: #375771;
     --thirdColor: #f1f1f1;
-    --navbar: var(--primColor);
-    --navbarItemText: var(--thirdColor);
-    --navbarItemHover: var(--secColor);
 }
 
 #home-hero{
@@ -50,4 +47,8 @@
 .cv-profiel-foto{
     width: 100%;
     margin: auto;
+}
+
+.card-work p{
+    text-align: justify;
 }
